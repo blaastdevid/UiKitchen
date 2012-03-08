@@ -1,0 +1,15 @@
+{
+    "style": {
+        "background-color": "white",
+        "border": 5,
+        "align": "center",
+        "valign": "middle"
+    },
+    
+    "contents": [
+        {
+            "name": "img",
+            "control": "ImageView"
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "style": {
+        "background-color": "white",
+        "border": 10
+    },
+    
+    "contents": [
+        {
+            "name": "title",
+            "control": "TextView",
+            "label": "TextView Kitchen",
+            "style": {
+                "background-color": "#ebebeb",
+                "width": "fill-parent",
+                "align": "center",
+                "border": 10
+            }
+        },
+        {
+            "name": "line",
+            "control": "Control",
+            "style": {
+                "width": "fill-parent",
+                "height": 5
+            }
+        },
+        {
+            "name": "preview",
+            "control": "TextView",
+            "label": "Text Preview",
+            "style": {
+                "width": "fill-parent",
+                "align": "center",
+                "valign": "middle",
+                "border": 10
+            }
+        },
+        {
+            "name": "line",
+            "control": "Control",
+            "style": {
+                "width": "fill-parent",
+                "height": 5
+            }
+        },
+        {
+            "name": "info",
+            "control": "TextView",
+            "label": "Please use up & down key to select. And left & right key to change image.",
+            "style":{
+                "font-size": "small"
+            }
+        },
+        {
+            "name": "line",
+            "control": "Control",
+            "style": {
+                "width": "fill-parent",
+                "height": 5
+            }
+        },
+        {
+            "name": "config",
+            "control": "HLayout",
+            "style": { "width": "fill-parent", "height": "fill-parent", "border": 10, "overflow": "auto" },
+            "contents": [
+                {
+                    "name": "conf-0",
+                    "control": "VLayout",
+                    "style": { "width": "fill-parent" },
+                    "contents": [
+                        {
+                            "name": "label1",
+                            "control": "TextView",
+                            "label": "background-color",
+                            "style": { "width": 100, "font-size": "small" }
+                        },
+                        {
+                            "name": "tvBackColor",
+                            "control": "TextView",
+                            "label": "white",
+                            "style": { "width": 100, "font-size": "small" }
+                        }
+                    ]
+                },
+                {
+                    "name": "conf-1",
+                    "control": "VLayout",
+                    "style": { "width": "fill-parent" },
+                    "contents": [
+                        {
+                            "name": "label1",
+                            "control": "TextView",
+                            "label": "font-size",
+                            "style": { "width": 100, "font-size": "small" }
+                        },
+                        {
+                            "name": "tvFontSize",
+                            "control": "TextView",
+                            "label": "medium",
+                            "style": { "width": 100, "font-size": "small" }
+                        }
+                    ]
+                },
+                {
+                    "name": "conf-2",
+                    "control": "VLayout",
+                    "style": { "width": "fill-parent" },
+                    "contents": [
+                        {
+                            "name": "label1",
+                            "control": "TextView",
+                            "label": "font-weight",
+                            "style": { "width": 100, "font-size": "small" }
+                        },
+                        {
+                            "name": "tvFontWeight",
+                            "control": "TextView",
+                            "label": "normal",
+                            "style": { "width": 100, "font-size": "small" }
+                        }
+                    ]
+                },
+                {
+                    "name": "conf-3",
+                    "control": "VLayout",
+                    "style": { "width": "fill-parent" },
+                    "contents": [
+                        {
+                            "name": "label1",
+                            "control": "TextView",
+                            "label": "align",
+                            "style": { "width": 100, "font-size": "small" }
+                        },
+                        {
+                            "name": "tvAlign",
+                            "control": "TextView",
+                            "label": "center",
+                            "style": { "width": 100, "font-size": "small" }
+                        }
+                    ]
+                },
+                {
+                    "name": "conf-4",
+                    "control": "VLayout",
+                    "style": { "width": "fill-parent" },
+                    "contents": [
+                        {
+                            "name": "label1",
+                            "control": "TextView",
+                            "label": "color",
+                            "style": { "width": 100, "font-size": "small" }
+                        },
+                        {
+                            "name": "tvColor",
+                            "control": "TextView",
+                            "label": "black",
+                            "style": { "width": 100, "font-size": "small" }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

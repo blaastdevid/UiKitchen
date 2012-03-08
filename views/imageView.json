@@ -1,0 +1,48 @@
+{
+    "style": {
+        "background-color": "white",
+        "border": 10
+    },
+    
+    "contents": [
+        {
+            "name": "title",
+            "control": "TextView",
+            "label": "ImageView Kitchen",
+            "style": {
+                "background-color": "#ebebeb",
+                "width": "fill-parent",
+                "align": "center",
+                "border": 10
+            }
+        },
+        {
+            "name": "line",
+            "control": "Control",
+            "style": {
+                "width": "fill-parent",
+                "height": 5
+            }
+        },
+        {
+            "name": "preview",
+            "control": "ImageView"
+        },
+         {
+            "name": "line",
+            "control": "Control",
+            "style": {
+                "width": "fill-parent",
+                "height": 5
+            }
+        },
+        {
+            "name": "info",
+            "control": "TextView",
+            "label": "Please use left & right key to change image.",
+            "style":{
+                "font-size": "small"
+            }
+        }
+    ]
+}

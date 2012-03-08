@@ -1,0 +1,82 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "header",
+			"control": "HLayout",
+			"style": {
+				"width": "fill-parent",
+				"align": "center",
+				"valign": "middle"
+			},
+			"contents": [
+				{
+					"name": "imgLogo",
+					"control": "ImageView",
+					"style": {}
+				}
+			]
+		},
+		{
+			"name": "line",
+			"control": "Control",
+			"style": {
+				"width": "fill-parent",
+				"height": 10
+			}
+		},
+		{
+			"name": "tvTextView",
+			"control": "TextView",
+			"label": "TextView",
+			"style": {
+				"width": "fill-parent",
+				"align": "center",
+				"background-color": "#ebebeb",
+				"border": 10
+			}
+		},
+		{
+			"name": "line",
+			"control": "Control",
+			"style": {
+				"width": "fill-parent",
+				"height": 10
+			}
+		},
+		{
+			"name": "tvInputBox",
+			"control": "TextView",
+			"label": "InputBox",
+			"style": {
+				"width": "fill-parent",
+				"align": "center",
+				"background-color": "#ebebeb",
+				"border": 10
+			}
+		},
+		{
+			"name": "line",
+			"control": "Control",
+			"style": {
+				"width": "fill-parent",
+				"height": 10
+			}
+		},
+		{
+			"name": "tvImageView",
+			"control": "TextView",
+			"label": "ImageView",
+			"style": {
+				"width": "fill-parent",
+				"align": "center",
+				"background-color": "#ebebeb",
+				"border": 10
+			}
+		}
+	]
+}
